@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#5c1517">
+    <title>Montech</title>
+    <link rel="stylesheet" href="sites.css">
+    <link rel="stylesheet" href="Home.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="button_header_container">
+            <button onclick="toggleSidebar()" class="button_header">
+                <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                </svg>
+            </button>
+        </div>
+        <div class="button_header_home">
+            <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" fill="currentColor" class="bi bi-house" viewBox="0 0 16 16">
+                <a href="Home.html"> <path d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L2 8.207V13.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V8.207l.646.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293zM13 7.207V13.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V7.207l5-5z"/>
+              </svg></a>
+        </div>
+    </header>
+
+    <main>
+        <section id="section1" class="section1">
+            <div class="conteudoSection1">
+                <div class="h1Section1">
+                    <h1><strong>Sites</strong></h1>
+                </div>
+                <div class="textSection1">
+                    <h3>Aqui está o agrupamento dos projetos de Sites</h3>
+                </div>
+            </div>
+        </section>
+        
+        <section id="grupos-section" class="section2">
+            <h1><strong>2°DSIS</strong></h1>
+            <div class="grupo" onclick="expandGrupo(this)">
+                <div class="enunciado">
+                    <p>Grupo 1</p>
+                </div>
+                <div class="grupo-hr">
+                    <hr>
+                </div>
+                <div class="grupo-conteudo">
+                    <h2 class="integrantes"><strong>Integrantes:</strong>Gustavo Munchen, Bruna, Diego Ficanha, Gabriel Takai, João Henn</h2>
+                    <h2 class="tema"><strong>Tema:</strong>Site de notícias</h2>
+                    <h3 class="feito"><strong>O que foi feito?</strong><br>O aperfeiçõamento deste site teve destaque no design e efeitos visuais, trazendo mais suavidade e melhorando sua aparencia. Ainda tendo diversas funcionalidades, como: <br> Adição e Remoção de Notícias <br>Carregar Notícias a partir de arquivos JSON ou LocalStorage <br>Ferramentas de busca e filtro<br> Sistema de Comentários <br> Design Responsivo <br> Modo noturno <br><br> <br></h3>
+                    <h3 class="porque"><strong>Por que foi feito?</strong><br>O site foi inicialmente desenvolvido pela mesma equipe para atender à demanda de um projeto do segundo trimestre deste ano. A decisão de aprimorá-lo foi unânime, visto que seu desenvolvedor possuía amplo conhecimento da estrutura original, facilitando o processo de reformulação. O grupo acreditava que o site possuía potencial inexplorado e sentia que faltava algo para torná-lo completo. Essa lacuna foi preenchida durante o processo de aperfeiçoamento, resultando em um site mais limpo e alinhado com as expectativas do projeto.<br></h3>
+                    <div class="img-container">
+                        <img src="" alt="" class="img-grupo">
+                    </div>
+                </div>
+            </div>
+
+            <div class="grupo" onclick="expandGrupo(this)">
+                <div class="enunciado">
+                    <p>Grupo 2</p>
+                </div>
+                <div class="grupo-hr">
+                    <hr>
+                </div>
+                <div class="grupo-conteudo">
+                    <h2 class="integrantes"><strong>Integrantes:</strong>Guilherme Becker, Guilherme de Oliveira, Rafael, Henrique Endrigo, André.</h2>
+                    <h2 class="tema"><strong>Tema:</strong>Site da prefeitura </h2>
+                    <h3 class="feito"><strong>O que foi feito?</strong><br>Melhorar o site <br></h3>
+                    <h3 class="porque"><strong>Por que foi feito?</strong><br>Porque o site é feio<br></h3>
+                    <div class="img-container">
+                        <img src="img/Screenshot_2024-10-10-21-25-54-810_com.android.chrome-edit - ANDRE FELIPE FERREIRA NEIS.jpg" alt="" class="img-grupo">
+                    </div>
+                </div>
+            </div>
+
+            <div class="grupo" onclick="expandGrupo(this)">
+                <div class="enunciado">
+                    <p>Grupo 3</p>
+                </div>
+                <div class="grupo-hr">
+                    <hr>
+                </div>
+                <div class="grupo-conteudo">
+                    <h2 class="integrantes"><strong>Integrantes:</strong>Vinicius Treter Kniphoff, Pedro Henrique  Mazzurana, Matheus Henrique</h2>
+                    <h2 class="tema"><strong>Tema:</strong>Prefeitura de Medianeira</h2>
+                </div>
+            </div>
+            <div class="grupo" onclick="expandGrupo(this)">
+                <div class="enunciado">
+                    <p>Grupo 4</p>
+                </div>
+                <div class="grupo-hr">
+                    <hr>
+                </div>
+                <div class="grupo-conteudo">
+                    <h2 class="integrantes"><strong>Integrantes:</strong>Rudney Viana, Leonardo Urman, João Lucas Müller, Vinicius Gabriel Gaspar</h2>
+                    <h2 class="tema"><strong>Tema:</strong>Design - Front-End</h2>
+                    <h3 class="feito"><strong>O que foi feito?</strong><br>Redesign do site da pizzaria Quinta da Oliva<br></h3>
+                    <h3 class="porque"><strong>Por que foi feito?</strong><br>Porque o site original pode receber melhorias visuais, além de possuir diversos erros visuais.<br></h3>
+                    <div class="img-container">
+                        <img src="img/Group 1 - JOAO LUCAS MULLER.png" alt="" class="img-grupo">
+                    </div>
+                </div>
+            </div>
+            <div class="grupo" onclick="expandGrupo(this)">
+                <div class="enunciado">
+                    <p>Grupo 5</p>
+                </div>
+                <div class="grupo-hr">
+                    <hr>
+                </div>
+                <div class="grupo-conteudo">
+                    <h2 class="integrantes"><strong>Integrantes:</strong>Diulia Storch, William de Jesus da Cruz, Carlos Eduardo, Luiz Gonçalves, Guilherme Candiotto.</h2>
+                    <h2 class="tema"><strong>Tema:</strong>Site de Notícia.</h2>
+                </div>
+            </div>
+            <div class="grupo" onclick="expandGrupo(this)">
+                <div class="enunciado">
+                    <p>Grupo 6</p>
+                </div>
+                <div class="grupo-hr">
+                    <hr>
+                </div>
+                <div class="grupo-conteudo">
+                    <h2 class="integrantes"><strong>Integrantes:</strong>João Heckler, Caio Gael, Gabriel mattia, Victor Pires</h2>
+                    <h2 class="tema"><strong>Tema:</strong>Site da pizzaria (FORNO DE OURO)</h2>
+                </div>
+            </div>
+            <h1><strong>3°DSIS</strong></h1>
+            <div class="grupo" onclick="expandGrupo(this)">
+                <div class="enunciado">
+                    <p>Pack Game</p>
+                </div>
+                <div class="grupo-hr">
+                    <hr>
+                </div>
+                <div class="grupo-conteudo">
+                    <h2 class="integrantes"><strong>Integrantes:</strong>Ana Beatriz Lopes dos Santos, Erica Sabrina de Freitas, Guilherme Oliveira Weber e Rafael Gustavo Rodrigues dos Santos </h2>
+                    <h2 class="tema"><strong>Tema:</strong>Pack-Games</h2>
+                    <h3 class="feito"><strong>O que foi feito?</strong><br>Fizemos um site de jogos antigos, contendo os jogos da Cobrinha, Pong, Pac Man, Tetris e Asteroids<br></h3>
+                    <h3 class="porque"><strong>Por que foi feito?</strong><br>A criação do Pack-Games surgiu com o objetivo de preservar esses clássicos, relembrando não apenas algumas características, mas também suas histórias.
+                        Durante a criação do site e dos jogos, além de reviver a infância, foi explorado as histórias e o impacto cultural desse jogos, criando uma conexão significativa entre o passado e o presente.<br></h3>
+                    <div class="img-container">
+                        <img src="img/IMG_20241010_213448 - GUILHERME OLIVEIRA WEBER (1).jpg" alt="" class="img-grupo">
+                    </div>
+                </div>
+            </div>
+            <h1><strong>4°INFORMATICA</strong></h1>
+            <div class="grupo" onclick="expandGrupo(this)">
+                <div class="enunciado">
+                    <p>Conexão Sanguínea</p>
+                </div>
+                <div class="grupo-hr">
+                    <hr>
+                </div>
+                <div class="grupo-conteudo">
+                    <h2 class="integrantes"><strong>Integrantes:</strong>CAMILA LUIZA, JOÃO VITOR BISPO, KATHIRRY HORAZY</h2>
+                    <h2 class="tema"><strong>Tema:</strong>Site Conexão Sanguínea feito para doação e estoque de sangue </h2>
+                    <h3 class="feito"><strong>O que foi feito?</strong><br>“Conexão Sanguínea” irá agilizar o processo de agendamento e a coleta de informações, para assim, proporcionar a ajuda necessária e salvar vidas.<br></h3>
+                    <h3 class="porque"><strong>Por que foi feito?</strong><br>Desenvolver um site de cadastramento de pessoas possíveis doadoras de sangue centralizando as informações e agilizando o trabalho hospitalar. ajudará as pessoas com problemas de saúde, possibilitando uma rápida força necessária.<br></h3>
+                    <div class="img-container">
+                        <img src="img/Projeto - CAMILA LUIZA RONZZANI DA SILVA.png" alt="" class="img-grupo">
+                    </div>
+                </div>
+            </div>
+            <div class="grupo" onclick="expandGrupo(this)">
+                <div class="enunciado">
+                    <p>For Life</p>
+                </div>
+                <div class="grupo-hr">
+                    <hr>
+                </div>
+                <div class="grupo-conteudo">
+                    <h2 class="integrantes"><strong>Integrantes:</strong>Henrique, Geovane e Nicolas Trindade </h2>
+                    <h2 class="tema"><strong>Tema:</strong>Doação de alimentos </h2>
+                    <h3 class="feito"><strong>O que foi feito?</strong><br>Está sendo desenvolvido um site de venda ou doação de alimentos, acessível para todos, ao realizar uma compra ele irá solicitar um cadastro de usuário e um termo de responsabilidade. Nesse sistema também foi integrado a seção de eventos, para os usuários poderem visualizar os eventos de caridade da cidade.<br></h3>
+                    <h3 class="porque"><strong>Por que foi feito?</strong><br>Esse projeta visa a doação e venda de alimentos, tal qual eventos de caridade para a população<br></h3>
+                    <div class="img-container">
+                        <img src="img/IMG-20241015-WA0015 - HENRIQUE BRAZ MADEIRA.jpg" alt="" class="img-grupo">
+                    </div>
+                </div>
+            </div>
+            <div class="grupo" onclick="expandGrupo(this)">
+                <div class="enunciado">
+                    <p>Redes</p>
+                </div>
+                <div class="grupo-hr">
+                    <hr>
+                </div>
+                <div class="grupo-conteudo">
+                    <h2 class="integrantes"><strong>Integrantes:</strong>Daniel Sausen, Felipe de Lima, Rafael Tavares </h2>
+                    <h2 class="tema"><strong>Tema:</strong>Hi-work</h2>
+                    <h3 class="feito"><strong>O que foi feito?</strong><br>Um site para facilitar cidadãos desempregados a uma procura de vagas para empregos, e também a ajudar empresas encontrarem pessoas que estejam afim de trabalhar para elas<br></h3>
+                    <h3 class="porque"><strong>Por que foi feito?</strong><br>Pra ajudar as pessoas encontrar emprego mais fácil, e também ajudar as empresas acharem trabalhadores mais fácil <br></h3>
+                    <div class="img-container">
+                        <img src="img/IMG-20241015-WA0010 - RAFAEL TAVARES.jpg  " alt="" class="img-grupo">
+                    </div>
+                </div>
+            </div>
+            <div class="grupo" onclick="expandGrupo(this)">
+                <div class="enunciado">
+                    <p>Loja Online de Tênis</p>
+                </div>
+                <div class="grupo-hr">
+                    <hr>
+                </div>
+                <div class="grupo-conteudo">
+                    <h2 class="integrantes"><strong>Integrantes:</strong>Matheus Henrique de Araujo e Rubens Durante de Oliveira</h2>
+                    <h2 class="tema"><strong>Tema:</strong>Loja de Tênis online</h2>
+                    <h3 class="feito"><strong>O que foi feito?</strong><br><br>Sistema de Loja de Tênis online </h3>
+                    <h3 class="porque"><strong>Por que foi feito?</strong><br><br>Escolha do grupo</h3>
+                    <img src="img/14917c85-d022-4654-ae69-b165a69cb5a0 - MATHEUS HENRIQUE DE ARAUJO.jpeg" alt="" class="img-grupo">
+                </div>
+            </div>
+        </section>
+        <hr>
+        <section class="localizacao">
+            <h1><strong>Salas 5, 6 e 7</strong></h1>
+        </section>
+        <footer>
+            <div class="creditos">
+                <h2>Mondrone Desenvoltech 1° Edição</h2><img src="" alt=""><br><hr><br>
+                <h3>Site desenvolvido pelo aluno: </h3>
+                <div class="munchen">
+                    <a href="https://www.instagram.com/gustavo_munchen/"><img src="img/gustavo.jfif" alt=""></a>
+                    <h3>Gustavo Munchen - 2°DSIS</h3>
+                </div>
+            </div>
+        </footer>
+    </main>
+    
+    <aside id="sidebar" class="sidebar">
+        <button onclick="closeSidebar()" class="button_aside_x">
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
+                <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708"/>
+            </svg>
+        </button>
+        <section class="sectionAside">
+
+            <a href="tccs.html"><hr>
+            <div class="opcao">
+                <h1></h1><h1>TCC(s)</h1> <h1>></h1>
+            </div><hr></a>
+            <a href="jogos.html">
+            <div class="opcao">
+                <h1></h1><h1>Jogos</h1> <h1>></h1>
+            </div><hr></a>
+            <a href="sites.html">
+            <div class="opcao">             
+                <h1></h1><h1>Sites</h1> <h1>></h1>
+            </div> <hr></a>
+
+        </section>
+      
+    </aside>
+
+    <script>
+        var sidebar = document.getElementById('sidebar');
+        var showSidebar = false;
+        var main = document.querySelector('main');
+        var header = document.querySelector('header');
+
+        function toggleSidebar() {
+            showSidebar = !showSidebar;
+            if (showSidebar) {
+                sidebar.style.marginLeft = '0';            
+                main.style.filter = 'blur(2px)';
+            } else {
+                sidebar.style.marginLeft = '-100vw';
+                main.style.filter = 'none';
+            }
+        }
+
+        function closeSidebar() {
+            toggleSidebar(); 
+        }
+
+        // Função para animação da header quando ocorrer a rolagem
+        const shrinkOn = 10; // Distância em pixels para iniciar a animação
+
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > shrinkOn) {
+                header.classList.add('shrink');
+                sidebar.classList.add('shrink');
+                main.classList.add('shrink');
+            } else {
+                header.classList.remove('shrink');
+                sidebar.classList.remove('shrink');
+                main.classList.remove('shrink');
+            }
+        });
+
+        function expandGrupo(selectedGrupo) {
+    const grupos = document.querySelectorAll('.grupo');
+    
+    grupos.forEach(grupo => {
+        const conteudo = grupo.querySelector('.grupo-conteudo');
+        const hr = grupo.querySelector('.grupo-hr');
+
+        if (grupo === selectedGrupo) {
+            const isExpanded = grupo.classList.toggle('expanded');
+            conteudo.classList.toggle('expanded', isExpanded);
+            hr.classList.toggle('expanded', isExpanded);
+        } else {
+            grupo.classList.remove('expanded');
+            conteudo.classList.remove('expanded');
+            hr.classList.remove('expanded');
+        }
+    });
+}
+
+    </script>
+</body>
+</html>
