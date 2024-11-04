@@ -1,23 +1,4 @@
-:root {
-    --color-verm-001-blood: #631719;
-    --color-verm-002-profundo: #5c1517;
-    --color-verm-transition: #6b181b;
-    --color-verm-003-spectre: #7e1a1d;
-    --color-verm-004-escarlate: #821a1e;
-    --color-verm-005-equestrian: #8f1825;
-    --color-verm-006-chary: #911810;
-    --color-verm-007-farrow: #a3191a;
-    --color-verm-008-tricoline: #b9221d;
-    --color-verm-009-solido: #bc2a20;
-    --gradient-vermelho: linear-gradient(45deg, var(--color-verm-001-blood) 20%, var(--color-verm-002-profundo) 40%, var(--color-verm-transition)50%, var(--color-verm-003-spectre) 60%, var(--color-verm-004-escarlate)68%, var(--color-verm-005-equestrian) 74%, var(--color-verm-006-chary) 82%, var(--color-verm-007-farrow) 90%, var(--color-verm-008-tricoline), var(--color-verm-009-solido));
-    --gradient-vermelho-aside: linear-gradient(120deg, var(--color-verm-001-blood) 20%, var(--color-verm-002-profundo) 40%, var(--color-verm-transition)50%, var(--color-verm-003-spectre) 60%, var(--color-verm-004-escarlate)68%, var(--color-verm-005-equestrian) 74%, var(--color-verm-006-chary) 82%, var(--color-verm-007-farrow) 90%, var(--color-verm-008-tricoline), var(--color-verm-009-solido));
-    --color-pearl-001: #E2DFD2;
-    --color-pearl-002: #f0efeb;
-    --color-branco: #fff;
-    --color-preto-001: #000;
-    --color-preto-002: #4b4b4b;
-    --color-texto-grupo: #e9e0d5;
-}
+@import url(./variaveis.css);
 
 * {
     margin: 0;
