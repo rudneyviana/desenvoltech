@@ -393,3 +393,8 @@ footer {
     margin: 10px;
     border: 1px solid var(--color-pearl-001);
 }
+
+.localizacao {
+    width: 100%;
+    text-align: center;
+}
